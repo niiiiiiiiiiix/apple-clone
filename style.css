@@ -108,25 +108,83 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 4rem;
   margin-top: 20px;
   font-size: 53px;
   font-weight: 600;
 }
 
-#cny-subheadline {
+.headline-pro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fbfbfd;
+  padding-top: 4rem;
+  margin-top: 20px;
+  font-size: 53px;
+  font-weight: 600;
+}
+
+.links {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 13px;
   font-size: 20px;
+  color: #3070d1;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.links-general {
+  display: flex;
+  justify-content: center;
+}
+
+#subhead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+#subhead-pro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+  font-size: 26px;
+  font-weight: 400;
+  color: #fbfbfd;
 }
 
 .unit-image-wrapper {
   display: flex;
-  width: 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  overflow: hidden;
 }
 
-.unit-image-container {
-  flex: 33.33%;
-  padding: 5px;
+img.sets {
+  width: 250vw;
+  margin-top: -23%;
+}
+
+#holiday-2020 {
+  /* background-image: url("https://www.apple.com/sg/home/images/heroes/cny-2021/set-a/holiday20_largetall_2x.jpg"); */
+  background-color: #fbfbfd;
+}
+
+#iphone-12 {
+  /* background-image: url("https://www.apple.com/sg/home/images/heroes/iphone-12/iphone_12__ejhnn79bn1me_largetall_2x.jpg"); */
+  background-color: #fbfbfd;
+}
+
+#iphone-12-pro {
+  /* background-image: url("https://www.apple.com/v/home/s/images/heroes/iphone-12-pro/iphone_12_pro__f7ri3g4x75m6_largetall_2x.jpg"); */
+  background-color: black;
 }
