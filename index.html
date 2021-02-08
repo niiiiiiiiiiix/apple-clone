@@ -7,11 +7,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+
+  <header>
   <div class="container">
     <nav class="nav">
       <ul class="nav-list desktop-view">
-        <li class="nav-item">
+        <li class="nav-item nav-item-hidden">
           <a href="index.html" class="nav-link nav-link-apple"></a>
         </li>
         <li class="nav-item">
@@ -41,6 +42,21 @@
         <li class="nav-item">
           <a href="#" class="nav-link nav-link-bag"></a>
         </li>
+      </ul>
+
+      <ul class="nav-list mobile-view">
+        <li class="nav-item">
+          <div class="mobile-menu">
+            <span class="line line-top"></span>
+            <span class="line line-bottom"></span>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="index.html" class="nav-link nav-link-apple"></a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link nav-link-bag"></a>
+        </li>        
       </ul>
     </nav>
   </div>
@@ -138,61 +154,122 @@
   </section>
 </main>
 
-<footer>
-  <div class="row">
-    <div class="column">
-      <div class="column-section">
-        <h3>Shop and Learn</h3>
-        <li class="item">Mac</li>
-        <li class="item">iPad</li>
-        <li class="item">iPhone</li>
-        <li class="item">Watch</li>
-        <li class="item">TV</li>
-        <li class="item">Music</li>
-        <li class="item">AirPods</li>
-        <li class="item">iPod touch</li>
-        <li class="item">Accessories</li>
-        <li class="item">Gift Cards</li>
+<footer class="footer">    
+  <section>
+    <div class="row">
+      <div class="column">
+        <div class="column-section">
+          <h3>Shop and Learn</h3>
+          <li class="item">Mac</li>
+          <li class="item">iPad</li>
+          <li class="item">iPhone</li>
+          <li class="item">Watch</li>
+          <li class="item">TV</li>
+          <li class="item">Music</li>
+          <li class="item">AirPods</li>
+          <li class="item">iPod touch</li>
+          <li class="item">Accessories</li>
+          <li class="item">Gift Cards</li>
+        </div>
       </div>
-    </div>
+    
+      <div class="column">
+        <div class="column-section">
+          <h3>Services</h3>
+          <li class="item">Apple Music</li>
+          <li class="item">Apple TV+</li>
+          <li class="item">Apple Arcade</li>
+          <li class="item">iCloud</li>
+          <li class="item">Apple One</li>
+          <li class="item">Apple Pay</li>
+          <li class="item">Apple Books</li>
+          <li class="item">App Store</li>
+        </div>
   
-    <div class="column">
-      <div class="column-section">
-        <h3>Services</h3>
-        <li class="item">Apple Music</li>
-        <li class="item">Apple TV+</li>
-        <li class="item">Apple Arcade</li>
-        <li class="item">iCloud</li>
-        <li class="item">Apple One</li>
-        <li class="item">Apple Pay</li>
-        <li class="item">Apple Books</li>
-        <li class="item">App Store</li>
+        <div class="column-section">
+          <h3>Account</h3>
+          <li class="item">Manage Your Apple ID</li>
+          <li class="item">Apple Store Account</li>
+          <li class="item">iCloud.com</li>
+        </div>
+      </div>
+        
+      <div class="column">
+        <div class="column-section">
+          <h3>Apple Store</h3>
+          <li class="item">Find a Store</li>
+          <li class="item">Shop Online</li>
+          <li class="item">Genius Bar</li>
+          <li class="item">Today at Apple</li>
+          <li class="item">Apple Store App</li>
+          <li class="item">Refurbished and Clearance</li>
+          <li class="item">Financing</li>
+          <li class="item">Apple Trade In</li>
+          <li class="item">Order Status</li>
+          <li class="item">Shopping Help</li>
+        </div>
       </div>
 
-      <div class="column-section">
-        <h3>Account</h3>
-        <li class="item">Manage Your Apple ID</li>
-        <li class="item">Apple Store Account</li>
-        <li class="item">iCloud.com</li>
+      <div class="column">
+        <div class="column-section">
+          <h3>For Business</h3>
+          <li class="item">Apple and Business</li>
+          <li class="item">Shop for Business</li>
+        </div>
+
+        <div class="column-section">
+          <h3>For Education</h3>
+          <li class="item">Apple and Education</li>
+          <li class="item">Shop for Education</li>
+        </div>
+
+        <div class="column-section">
+          <h3>For Healthcare</h3>
+          <li class="item">Apple in Healthcare</li>
+          <li class="item">Health on Apple Watch</li>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="column-section">
+          <h3>Apple Values</h3>
+          <li class="item">Accessibility</li>
+          <li class="item">Environment</li>
+          <li class="item">Privacy</li>
+          <li class="item">Supplier Responsibility</li>
+        </div>
+
+        <div class="column-section">
+          <h3>About Apple</h3>
+          <li class="item">Newsroom</li>
+          <li class="item">Apple Leadership</li>
+          <li class="item">Job Opportunities</li>
+          <li class="item">Investors</li>
+          <li class="item">Events</li>
+          <li class="item">Contact Apple</li>
+        </div>
+
+        <div class="column-section">
+          <h3>For Healthcare</h3>
+          <li class="item">Apple in Healthcare</li>
+          <li class="item">Health on Apple Watch</li>
+        </div>
       </div>
     </div>
-      
-    <div class="column">
-      <div class="column-section">
-        <h3>Apple Store</h3>
-        <li class="item">Find a Store</li>
-        <li class="item">Shop Online</li>
-        <li class="item">Genius Bar</li>
-        <li class="item">Today at Apple</li>
-        <li class="item">Apple Store App</li>
-        <li class="item">Refurbished and Clearance</li>
-        <li class="item">Financing</li>
-        <li class="item">Apple Trade In</li>
-        <li class="item">Order Status</li>
-        <li class="item">Shopping Help</li>
-      </div>
+  </section>
+
+  <section class="footer-bottom">
+    <div class="shop">More ways to shop: Find an Apple Store or a retailer near you. Or call 1800-692-7753.</div>
+    <hr/>
+    <div class="bottom-row">
+      <div class="legal">Copyright © 2021 Apple Inc. All rights reserved.</div>  
+      <div class="country">Singapore</div>
     </div>
-  </div>
+  </section>
+  
 </footer>
+
+<script src="/index.js"></script>
+
 </body>
 </html>
