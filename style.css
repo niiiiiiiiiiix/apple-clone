@@ -330,17 +330,9 @@ footer .bottom-row {
 
 @media screen and (max-width: 767px) {
   header {
-    height: 4.8rem;
+    height: 4.4rem;
     transition: background 0.36s cubic-bezier(0.32, 0.08, 0.24, 1),
       height 0.56s cubic-bezier(0.32, 0.08, 0.24, 1);
-  }
-
-  .container {
-    padding: 0;
-  }
-
-  .nav-list {
-    margin-top: 0;
   }
 
   .mobile-view {
@@ -348,8 +340,8 @@ footer .bottom-row {
   }
 
   .nav-item {
-    width: 4.8rem;
-    height: 4.8rem;
+    width: 4.4rem;
+    height: 4.4rem;
     display: flex;
     justify-content: center;
   }
@@ -359,6 +351,7 @@ footer .bottom-row {
   }
 
   .mobile-menu {
+    padding-top: 5%;
     position: relative;
     z-index: 1400;
     width: 100%;
@@ -404,16 +397,16 @@ footer .bottom-row {
   }
 
   .nav-link-apple {
-    width: 1.8rem;
-    height: 4.8rem;
+    width: 1.6rem;
+    height: 4.4rem;
     position: relative;
     z-index: 1400;
   }
 
   .nav-link-bag {
     width: 1.6rem;
-    height: 4.8rem;
-    transition: opacity 3s;
+    height: 4.4rem;
+    /* transition: opacity 0s; */
   }
 
   .nav {
@@ -421,8 +414,9 @@ footer .bottom-row {
   }
 
   .nav-link {
-    font-size: 1.7rem;
-    padding: 0;
+    font-size: 1.4rem;
+    color: #d6d6d6;
+    padding: 0 1rem;
     margin: auto 0;
   }
 
@@ -456,7 +450,7 @@ footer .bottom-row {
   .desktop-view .nav-item {
     width: 100%;
     justify-content: flex-start;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 0.01px solid #1d1d1f;
   }
 
   .desktop-view .nav-item:nth-child(9) {
@@ -468,7 +462,7 @@ footer .bottom-row {
   }
 
   .active .desktop-view .nav-item {
-    animation: fadeIn 1s ease-in;
+    animation: fadeIn 0.75s ease-in;
   }
 
   @keyframes fadeIn {
