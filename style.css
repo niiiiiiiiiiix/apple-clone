@@ -475,6 +475,13 @@ footer .bottom-row {
   }
 }
 
+/* ribbon cny edit */
+@media screen and (max-width: 767px) {
+  .ribbon-cny {
+    font-size: 12px;
+  }
+}
+
 /* footer */
 @media screen and (max-width: 767px) {
   footer .row {
@@ -484,10 +491,6 @@ footer .bottom-row {
   footer .row h3 {
     display: none;
   }
-
-  /* footer li {
-    display: none;
-  } */
 
   footer .row-mobile {
     display: flex;
