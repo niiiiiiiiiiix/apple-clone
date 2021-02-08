@@ -287,7 +287,7 @@ footer h3 {
 
 footer .footer-bottom {
   padding-top: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   padding-left: 5%;
   padding-right: 5%;
   width: 90%;
@@ -517,5 +517,14 @@ footer .bottom-row {
 
   footer .column:nth-child(1) {
     padding-top: 20px;
+  }
+
+  .footer-bottom .shop {
+    padding-bottom: 0;
+    margin-bottom: 2px;
+  }
+
+  .footer-bottom hr {
+    display: none;
   }
 }
